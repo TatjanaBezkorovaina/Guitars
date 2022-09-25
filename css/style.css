@@ -950,3 +950,135 @@ a {
   }
 }
 /* ---------------------------------- */
+.footer {
+  background: #eeeeee;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+.footer__container {
+}
+.footer__body {
+  display: flex;
+  gap: 30px;
+}
+.body-footer {
+}
+
+.body-footer__column_full {
+  flex: 1 1 auto;
+}
+
+.body-footer__column {
+}
+.body-footer__logo {
+  display: inline-block;
+  margin-bottom: 25px;
+}
+.body-footer__contacts {
+}
+.contacts-footer {
+}
+.contacts-footer__item {
+}
+
+.contacts-footer__item:not(:last-child) {
+  margin-bottom: 28px;
+}
+.contacts-footer__link {
+  display: inline-block;
+  line-height: 24px;
+  padding-left: 44px;
+  color: #666666;
+}
+
+.contacts-footer__link:hover {
+  text-decoration: underline;
+}
+.contacts-footer__link_mail {
+  background: url("../img/footer/sms.svg") left no-repeat;
+}
+.contacts-footer__link_location {
+  background: url("../img/footer/location.svg") left no-repeat;
+}
+
+.body-footer__menu {
+}
+.menu-footer {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+}
+.menu-footer__column {
+}
+.menu-footer__title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #121212;
+  margin-bottom: 20px;
+}
+.menu-footer__list {
+}
+.menu-footer__item {
+}
+.menu-footer__item:not(:last-child) {
+  margin-bottom: 16px;
+}
+.menu-footer__link {
+  color: #666666;
+}
+.menu-footer__link:hover {
+  text-decoration: underline;
+}
+
+.body-footer__social {
+}
+.social-footer {
+}
+.social-footer__title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #121212;
+  margin-bottom: 20px;
+}
+.social-footer__items {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.social-footer__item {
+}
+
+.footer__copyright {
+  padding-top: 80px;
+  text-align: center;
+}
+@media (max-width: 991.98px) {
+  .footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .body-footer {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .body-footer__column:first-child {
+    flex: 1 1 100%;
+  }
+  .body-footer__column_full {
+    flex: 0 1 50%;
+  }
+  .menu-footer {
+    justify-content: space-between;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .footer__copyright {
+    padding-top: 50px;
+  }
+}
